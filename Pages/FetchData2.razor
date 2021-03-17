@@ -2,7 +2,7 @@
 
 @inject HttpClient Http
 
-<MyTable TItem="WeatherForecast" Items="forecasts">
+<MyTable TItem="WeatherForecast" Items="forecasts" Title="Weather Forecast">
     <HeaderContent>
         <MudTh><MudTableSortLabel SortBy="new Func<WeatherForecast, object>(x=>x.Date)">Date</MudTableSortLabel></MudTh>
         <MudTh><MudTableSortLabel SortBy="new Func<WeatherForecast, object>(x=>x.TemperatureC)">Temp. (C)</MudTableSortLabel></MudTh>
